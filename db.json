@@ -1,0 +1,98 @@
+{
+  "documents_search": [
+    {
+      "id": 1,
+      "pagination": {
+        "offset": 0,
+        "limit": 20,
+        "total": 2
+      },
+      "data": [
+        {
+          "ranking": 0.97,
+          "context": "Outline is a fast, collaborative knowledge base built for teams.",
+          "document": {
+            "id": "11111111-1111-1111-1111-111111111111",
+            "urlId": "outline-intro",
+            "title": "What is Outline",
+            "text": "Outline is a fast, collaborative knowledge base built for teams...",
+            "createdAt": "2025-01-01T10:00:00.000Z",
+            "updatedAt": "2025-02-01T12:00:00.000Z",
+            "publishedAt": "2025-02-01T12:00:00.000Z",
+            "archivedAt": null,
+            "deletedAt": null,
+            "collectionId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+            "parentDocumentId": null,
+            "template": false,
+            "fullWidth": false,
+            "emoji": "📘",
+            "url": "/doc/what-is-outline-outline-intro",
+            "createdBy": {
+              "id": "user-1",
+              "name": "Alice",
+              "avatarUrl": null
+            },
+            "updatedBy": {
+              "id": "user-1",
+              "name": "Alice",
+              "avatarUrl": null
+            },
+            "teamId": "team-1"
+          }
+        },
+        {
+          "ranking": 0.83,
+          "context": "Search allows you to find documents by title, content, and filters.",
+          "document": {
+            "id": "22222222-2222-2222-2222-222222222222",
+            "urlId": "search-feature",
+            "title": "Search in Outline",
+            "text": "You can search across all documents using filters like collection, author, and date...",
+            "createdAt": "2025-01-15T09:00:00.000Z",
+            "updatedAt": "2025-02:02T15:30:00.000Z",
+            "publishedAt": "2025-02-02T15:30:00.000Z",
+            "archivedAt": null,
+            "deletedAt": null,
+            "collectionId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+            "parentDocumentId": null,
+            "template": false,
+            "fullWidth": false,
+            "emoji": "🔍",
+            "url": "/doc/search-in-outline-search-feature",
+            "createdBy": {
+              "id": "user-2",
+              "name": "Bob",
+              "avatarUrl": null
+            },
+            "updatedBy": {
+              "id": "user-2",
+              "name": "Bob",
+              "avatarUrl": null
+            },
+            "teamId": "team-1"
+          }
+        }
+      ],
+      "policies": [
+        {
+          "id": "11111111-1111-1111-1111-111111111111",
+          "abilities": {
+            "read": true,
+            "update": true,
+            "delete": true,
+            "archive": true
+          }
+        },
+        {
+          "id": "22222222-2222-2222-2222-222222222222",
+          "abilities": {
+            "read": true,
+            "update": false,
+            "delete": false,
+            "archive": false
+          }
+        }
+      ]
+    }
+  ]
+}
